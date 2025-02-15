@@ -1,3 +1,4 @@
+-- database: ../project.db
 -- Create the authors table
 CREATE TABLE authors (
     author_id TEXT PRIMARY KEY, -- Prefixed sequential ID as the primary key (e.g., AUTHOR_001)

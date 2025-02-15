@@ -9,3 +9,7 @@ SET author_age_at_publication = (
     FROM authors
     WHERE authors.author_id = books.author_id
 );
+
+INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
+    ('BOOK_006', 'Wealth of Nations', 'Economics', 1997, 'AUTHOR_012'),
+    ('BOOK_007', 'Das Capital', 'Economics', 1998, 'AUTHOR_013'),
